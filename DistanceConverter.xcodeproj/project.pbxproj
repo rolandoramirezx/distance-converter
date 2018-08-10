@@ -14,6 +14,7 @@
 		7AB13E65211D37DD00245262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB13E63211D37DD00245262 /* LaunchScreen.storyboard */; };
 		7AB13E70211D37DE00245262 /* DistanceConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13E6F211D37DE00245262 /* DistanceConverterTests.swift */; };
 		7AB13E7B211D37DE00245262 /* DistanceConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13E7A211D37DE00245262 /* DistanceConverterUITests.swift */; };
+		7AB13E89211D3AE000245262 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13E88211D3AE000245262 /* Distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7AB13E76211D37DE00245262 /* DistanceConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB13E7A211D37DE00245262 /* DistanceConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceConverterUITests.swift; sourceTree = "<group>"; };
 		7AB13E7C211D37DE00245262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB13E88211D3AE000245262 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7AB13E5A211D37DB00245262 /* AppDelegate.swift */,
 				7AB13E5C211D37DB00245262 /* ViewController.swift */,
 				7AB13E5E211D37DB00245262 /* Main.storyboard */,
+				7AB13E88211D3AE000245262 /* Distance.swift */,
 				7AB13E61211D37DD00245262 /* Assets.xcassets */,
 				7AB13E63211D37DD00245262 /* LaunchScreen.storyboard */,
 				7AB13E66211D37DD00245262 /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB13E89211D3AE000245262 /* Distance.swift in Sources */,
 				7AB13E5D211D37DB00245262 /* ViewController.swift in Sources */,
 				7AB13E5B211D37DB00245262 /* AppDelegate.swift in Sources */,
 			);
