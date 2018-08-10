@@ -22,5 +22,8 @@ class ViewController: UIViewController {
 
     var distance = Distance(miles:1000)
 
+    @IBOutlet weak var milesTextField: UITextField!
+    t
+    @IBOutlet weak var kmTextField: UITextField!
 }
 
