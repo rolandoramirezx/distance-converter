@@ -17,7 +17,11 @@ class ViewController: UIViewController {
         milesTextField.text = "\(distance.miles)"
         kmTextField.text = "\(distance.km)"
     }
-
+    @IBAction func convertToKm(_ sender: Any) {
+    }
+    
+    @IBAction func convertToMiles(_ sender: Any) {
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
