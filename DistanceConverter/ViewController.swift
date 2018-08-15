@@ -17,7 +17,12 @@ class ViewController: UIViewController {
         milesTextField.text = "\(distance.miles)"
         kmTextField.text = "\(distance.km)"
     }
+    
     @IBAction func convertToKm(_ sender: Any) {
+        if let miles = Double(milesTextField.text!){
+            distance.miles = miles
+            kmTextField = "\(Int(distance.km))"
+        }
     }
     
     @IBAction func convertToMiles(_ sender: Any) {
