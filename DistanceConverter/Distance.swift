@@ -11,9 +11,15 @@ import Foundation
 class Distance {
     
     static let kmPerMile = 1.60934
+    
     var miles:Double
     var km:Double{
-        return Distance.toKm(miles:miles)
+        get{
+            return Distance.toKm(miles: miles)
+        }
+        set(newKm){
+            miles = Distance.toMiles(km: newKm)
+        }
     }
     init(miles:Double){
         self.miles = miles
